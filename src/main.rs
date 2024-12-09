@@ -6,7 +6,7 @@ use meval::eval_str;
 #[derive(Parser)]
 #[command(
     name = "RCC",
-    version = "0.0.1",
+    version = "0.0.2",
     about = "A CLI tool for performing calculations and managing timestamps",
     long_about = "RCC is a versatile CLI tool that allows you to:\n\
                   1. Perform basic mathematical calculations by providing an expression as a string, e.g., '1 + 2'.\n\

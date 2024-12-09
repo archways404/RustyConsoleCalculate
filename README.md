@@ -109,7 +109,7 @@ RCC --help
 Example Output:
 
 ```
-RCC 0.0.1
+RCC 0.0.2
 A CLI tool for performing calculations and managing timestamps
 
 RCC is a versatile CLI tool that allows you to:
