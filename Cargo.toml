@@ -1,0 +1,21 @@
+[package]
+name = "RustyConsoleCalculate"
+version = "0.0.1"
+edition = "2021"
+description = "A simple CLI tool for performing basic calculations."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/archways404/RustyConsoleCalculate"
+readme = "README.md"
+keywords = ["cli", "tool", "calculation"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.3", features = ["derive"] }
+anyhow = "1.0"
+meval = "0.2"
+chrono = "0.4"
+chrono-tz = "0.6"
+
+[[bin]]
+name = "RCC"
+path = "src/main.rs" # Specify the path to your binary's entry point
