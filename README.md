@@ -19,13 +19,13 @@ RCC is a versatile CLI tool designed to perform basic mathematical calculations 
 1. Add RCC to your project by installing it via `cargo`:
 
    ```bash
-   cargo install RCC
+   cargo install RustyConsoleCalculate
    ```
 
 2. Clone the repository and build manually if needed:
 
    ```bash
-   git clone https://github.com/yourusername/rcc.git
+   git clone https://github.com/archways404/rcc.git
    cd rcc
    cargo build --release
    ```
